@@ -4,7 +4,7 @@ Instrukcja uruchomienia:
   -Uruchom
   -Ciesz się quizem!!
 
-![nigga](Screenshot_20251023_164311.png)
-![nigga](Screenshot_20251023_164331.png)
-![nigga](Screenshot_20251023_164341.png)
+![alejaja](Screenshot_20251023_164311.png)
+![alejaja](Screenshot_20251023_164331.png)
+![alejaja](Screenshot_20251023_164341.png)
 
