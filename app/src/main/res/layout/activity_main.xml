@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Tytuł -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:text="Mega FAJNY Quiz "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Wynik początkowy -->
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik: 0"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center" />
+
+    <!-- Przycisk Rozpocznij -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROZPOCZNIJ QUIZ"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Obszar pytania (domyślnie widoczny po starcie) -->
+    <LinearLayout
+        android:id="@+id/quizContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pytanie"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Przycisk Odpowiedź A -->
+        <Button
+            android:id="@+id/answerAButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Przycisk Odpowiedź B -->
+        <Button
+            android:id="@+id/answerBButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Przycisk Odpowiedź C -->
+        <Button
+            android:id="@+id/answerCButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <!-- Resetuj Quiz -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESETUJ QUIZ"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
